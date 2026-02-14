@@ -1,0 +1,11 @@
+1) added addSubscription and cancelSubscription async thunks in subscriptionsSlice.ts to call POST and PATCH api
+2) added addCase handlers for both thunks in extraReducers to update redux state and activeCount after api response
+3) added "Add Subscription" button and per-item "Cancel" button in SubscriptionsTable.tsx
+
+Design Issue:
+PATCH /api/subscriptions does not accept a subscription id it always cancels the first active subscription not the one user clicked so clicking cancel on any subscription cancels the wrong one
+
+Possible fixes:
+1) best fix: update api to accept { id } in request body and cancel that specific subscription
+2) quick fix: re-fetch all subscriptions from server after every cancel to keep ui in sync
+3) ui fix: show single "Cancel Next Subscription" button instead of per-item buttons so ui honestly reflects what api does
