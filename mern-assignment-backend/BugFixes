@@ -1,4 +1,5 @@
-1) add proper validatiosn i services 
-2) instllaed a vlaidation library on top of validation on model for extra validation
-3) remved asaync await from debit(service and controller) as ther is no real db invlaoves as of now 
-4) made db private in services of walllet as no realdb invoves in real db we can use DI pattern to inject db instance in constructor to use that
+1) add proper validation in wallet services and DTO 
+2) installed a validation library on top of validation on model for extra validation
+3) removed async await from debit(service and controller) as there is no real db involves as of now 
+4) made db private in services of wallet as no real db invoves in real db we can use DI pattern to inject db instance in constructor to use that
+5) make return type same in debit as mentioned in README
