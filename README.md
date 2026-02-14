@@ -1,0 +1,12 @@
+# Project Overview
+
+## Backend Bug Fixes
+
+For backend bug fixes, visit:
+ https://github.com/abrknine/newown/blob/main/mern-assignment-backend/BugFixes
+
+
+## Frontend Bug Fixes
+
+For frontend bug fixes, visit:
+ https://github.com/abrknine/newown/blob/main/mern-assignment-frontend/BugFixes
