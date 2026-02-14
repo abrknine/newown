@@ -9,4 +9,4 @@ For backend bug fixes, visit:
 ## Frontend Bug Fixes
 
 For frontend bug fixes, visit:
- https://github.com/abrknine/newown/blob/main/mern-assignment-frontend/BugFixes
+ https://github.com/abrknine/newown/blob/main/mern-assignment-frontend/Bugfixes
